@@ -39,23 +39,15 @@ begin
   end;
 
    //OKEY, now how we can use our table?
-  // SQUAD list :)
+  // Name list :)
  // Now we use our Second Array
-  for var i := 0  to LengTH(SecondArray) -1  do
+  for var i := 0  to LengTH(FirstArray) -1  do
   begin
-    writeln('Please add TRIO , index: ', i);
-    readln(SecondArray[i]);
+    writeln('Please add name number: ', i);
+    readln(firstArray[i]);
   end;
 
-  writeln('Your name squad');
-  for var i := 0  to LengTH(SecondArray) -1  do
-  begin
-    writeln(SecondArray[i]);
-  end;
 
-  //HOMEWORK? Hell nah
- //Of course :D
-// Do your squad but using not integer but double
 
 
 

@@ -43,7 +43,7 @@ begin
  // Now we use our Second Array
   for var i := 0  to LengTH(SecondArray) -1  do
   begin
-    writeln('Please add TRIO , index: ', i);
+    writeln('Please add name , index: ', i);
     readln(SecondArray[i]);
   end;
 
